@@ -1,0 +1,21 @@
+{
+    "name": "ui5-task-replacer",
+    "version": "0.0.7",
+    "description": "UI5 task for replace app id and service urls",
+    "author": "Neasit",
+    "license": "MIT",
+    "homepage": "https://github.com/Neasit/service_replacer_ui5#readme",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Neasit/service_replacer_ui5.git",
+      "directory": ""
+    },
+    "scripts": {
+      "lint": "eslint lib",
+      "test": "ava"
+    },
+    "devDependencies": {
+      "@ui5/cli": "^3"
+    },
+    "dependencies": {}
+  }
