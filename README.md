@@ -34,9 +34,9 @@ These parameters can be provided as a options in ui5.yaml configuration or be st
     - name: ui5-task-replacer
       beforeTask: replaceCopyright
       configuration:
-        string:
-            - from: ''
-              to: ''
-            - from: ''
-              to: ''
+        replacer:
+            - from: 'app.id'
+              to: 'app.new.id'
+            - from: 'app/id'
+              to: 'app/new/id'
   ```
